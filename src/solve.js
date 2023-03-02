@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const equSolveFunc = (a, b, c) => {
     console.log(`${a}*x^2 + ${b}*x + ${c} = 0`);
@@ -14,11 +14,12 @@ const equSolveFunc = (a, b, c) => {
         const x1 = -b / (2 * a);
         console.log(`\nx1 = ${x1}`);
     } else {
-        console.log("\nThere is 0 root\n");
+        console.log("\nThere is 0 root");
     }
 };
-
 
 equSolveFunc(1, 4, 3);
 equSolveFunc(3, -18, 27)
 equSolveFunc(4, 2, 8);
+
+export { equSolveFunc };

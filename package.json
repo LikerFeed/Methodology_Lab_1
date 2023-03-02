@@ -1,0 +1,21 @@
+{
+  "name": "methodology_lab_1",
+  "version": "1.0.0",
+  "description": "Methodology Lab 1",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LikerFeed/Methodology_Lab_1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LikerFeed/Methodology_Lab_1/issues"
+  },
+  "homepage": "https://github.com/LikerFeed/Methodology_Lab_1#readme"
+}
