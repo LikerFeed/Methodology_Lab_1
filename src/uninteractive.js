@@ -1,3 +1,5 @@
+'use strict';
+
 import { readFileSync } from 'fs';
 import { equSolveFunc } from './solve.js';
 import { filePath, fileStructure, aZero } from './errorChecking.js';

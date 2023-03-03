@@ -1,3 +1,5 @@
+'use strict';
+
 import { interactiveModeFunc } from './interactive.js';
 import { uninteractiveModeFunc } from './uninteractive.js';
 

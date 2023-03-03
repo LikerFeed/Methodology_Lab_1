@@ -1,3 +1,5 @@
+'use strict';
+
 import { existsSync } from 'fs';
 
 const filePath = (path) => {
