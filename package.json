@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/LikerFeed/Methodology_Lab_1/issues"
   },
-  "homepage": "https://github.com/LikerFeed/Methodology_Lab_1#readme"
+  "homepage": "https://github.com/LikerFeed/Methodology_Lab_1#readme",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
 }

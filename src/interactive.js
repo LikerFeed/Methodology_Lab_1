@@ -1,16 +1,14 @@
-'use strict';
-
-import { equSolveFunc } from "./solve.js";
+import { equSolveFunc } from './solve.js';
 
 const interactiveModeFunc = () => {
   const abc = [
-    "a = ",
-    "b = ",
-    "c = "
+    'a = ',
+    'b = ',
+    'c = ',
   ];
   const params = [];
 
-  process.stdin.on("data", (data) => {
+  process.stdin.on('data', (data) => {
     if (params.length < abc.length) {
       const dataParsing = parseFloat(data.toString());
       params.push(dataParsing);
