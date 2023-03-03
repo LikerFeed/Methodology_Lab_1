@@ -18,8 +18,4 @@ const equSolveFunc = (a, b, c) => {
     }
 };
 
-equSolveFunc(1, 4, 3);
-equSolveFunc(3, -18, 27)
-equSolveFunc(4, 2, 8);
-
 export { equSolveFunc };
