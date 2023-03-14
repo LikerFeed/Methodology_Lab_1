@@ -16,6 +16,20 @@ The application accepts the path to the file in which the coefficients of the eq
 
 ## How to run
 
+Firstly, you have to install Node.js.
+
+[Download Node.js](https://nodejs.org/en/download/)
+
+Secondly, you also need to install npm.
+
+[Download npm](https://www.npmjs.com/package/download)
+
+After cloning the repository, install the dependencies.
+
+```
+$ npm i
+```
+
 ### Interactive mode
 
 ```
