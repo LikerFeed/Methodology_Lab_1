@@ -12,9 +12,23 @@ The console application is launched without arguments _(startup instructions bel
 
 ### Uninteractive (file) mode
 
-The application accepts the path to the file in which the coefficients of the equation are specified. To work correctly, the file with coefficients must contain space-separated values **a**, **b** and **c** and one empty line.
+The application accepts the path to the file in which the coefficients of the equation are specified. To work correctly, the file with coefficients must contain space-separated _(\s)_ values **a**, **b** and **c** and one empty line _(\n)_. Files for verification are in **testFiles** folder.
 
 ## How to run
+
+Firstly, you have to install Node.js.
+
+[Download Node.js](https://nodejs.org/en/download/)
+
+Secondly, you also need to install npm.
+
+[Download npm](https://www.npmjs.com/package/download)
+
+After cloning the repository, install the dependencies.
+
+```
+$ npm i
+```
 
 ### Interactive mode
 
